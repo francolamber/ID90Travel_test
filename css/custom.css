@@ -1,0 +1,69 @@
+.search-box-wrapper.style1 .search-tab-content .title-container {
+    background: #15499e;
+}
+button, input[type="button"].button {
+    background: #15499e;
+}
+button:hover, input[type="button"].button:hover {
+    background: #001f50;
+}
+.search-box-wrapper.style1 .search-box>ul.search-tabs li.active>a>i {
+    color: #15499e;
+}
+ul.search-tabs li.active a {
+    color: #15499d;
+}
+.search-box-wrapper.style1 .search-box>ul.search-tabs li.active>a:after {
+    color: #15499d;
+}
+
+.datepicker-wrap:after {
+    background: #468fcc;
+}
+
+.selector span.custom-select:before {
+    background: #468ecc;
+}
+#main-menu ul.menu>li.active>a, .chaser ul.menu>li.active>a {
+    color: #15499d;
+}
+#main-menu ul.menu>li:hover>a, .chaser ul.menu>li:hover>a {
+    color: #15499d;
+}
+a:hover, a:focus {
+    color: #15499d;
+}
+.ui-datepicker .ui-datepicker-header {
+    background: #468ecc;
+}
+.ui-datepicker th span {
+    color: #468dcd;
+}
+.ui-datepicker .ui-datepicker-calendar td.ui-datepicker-current-day a, .ui-datepicker .ui-datepicker-calendar td a:hover {
+    background: #468dcd;
+}
+.ui-datepicker .ui-datepicker-calendar td.ui-datepicker-today a:before {
+    border-right: 5px solid #15499d;
+}
+.ui-datepicker {
+    border: 1px solid #468dcd;
+}
+.icon-check:after {
+    background: url(../images/icon/icon-check.png) no-repeat center center #468fcc;
+}
+.icon-check:hover:after {
+    background-color: #468ecc;
+}
+.toggle-container .panel.style1 .panel-title>a.collapsed:before {
+    background: #468fcc;
+}
+a.button:hover {
+    background: #15499e;
+    color: white;
+}
+.listing-style3 [class^="soap-icon"].circle:hover {
+    color: #15499e;
+}
+.page-title-container .breadcrumbs li a:hover {
+    color: #468fcc;
+}

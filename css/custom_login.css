@@ -1,0 +1,43 @@
+input.input-text, select, textarea, span.custom-select {
+    background: #1e2935;
+    border: 0.5px solid #38b7f3;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+}
+.dashboard.style1, .post-404page.style1, .soap-login-page.style1 {
+    background-color: #ffffff;
+    background-image: -moz-radial-gradient(center center, circle cover, #fdfdfd, #4066a2 100%);
+    background-image: -webkit-radial-gradient(center center, circle cover, #fdfdfd, #4066a2 100%);
+    background-image: -o-radial-gradient(center center, circle cover, #fdfdfd, #4066a2 100%);
+    background-image: -ms-radial-gradient(center center, circle cover, #fdfdfd, #4066a2 100%);
+    background-image: radial-gradient(center center, circle cover, #fdfdfd, #4066a2 100%);
+}
+.yellow-color {
+    color: #1e2935 !important;
+}
+.soap-login-page.style1 .login-form .input-text {
+    background: #8ca7c7;
+    border: 1px solid #468fcc;
+    color: #fdfdfd;
+}
+input.input-text, select, textarea, span.custom-select {
+    background: #8ba7c7;
+    border: 0.5px solid #468fcc;
+    color:white;
+}
+button.sky-blue1, a.button.sky-blue1, input[type="button"].button.sky-blue1 {
+    background: #15499e;
+}
+button.sky-blue1:hover, a.button.sky-blue1:hover, input[type="button"].button.sky-blue1:hover {
+    background: #002767;
+}
+.soap-login-page.style1 .login-form .checkbox {
+    color: #15499e;
+    cursor: pointer;
+}
+.soap-login-page.style1 .login-form .checkbox.checked:before {
+    background: #1c263300;
+    color: #15499e;
+}
