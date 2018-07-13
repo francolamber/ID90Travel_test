@@ -1,10 +1,3 @@
-/*
- * Title:   Travelo - Travel, Tour Booking HTML5 Template - Page Loading Js
- * Author:  http://themeforest.net/user/soaptheme
- */
-
-// pace.js should be active
-
 if (typeof Pace != "undefined") {
     var soapPageLoadingContent = false;
     //document.write('<img alt="" src="images/logo2.png" style="display: none;">');

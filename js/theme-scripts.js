@@ -1,8 +1,3 @@
-/*
- * Title:   Travelo - Travel, Tour Booking HTML5 Template - Main Javascript file
- * Author:  http://themeforest.net/user/soaptheme
- */
-
 var stGlobals = {};
 stGlobals.isMobile = (/(Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|windows phone)/.test(navigator.userAgent));
 stGlobals.isMobileWebkit = /WebKit/.test(navigator.userAgent) && /Mobile/.test(navigator.userAgent);
@@ -619,7 +614,7 @@ tjq(window).load(function() {
     if (enableChaser == 1 && tjq('#content').length > 0 && tjq('#main-menu ul.menu').length > 0) {
         var forchBottom;
         var chaser = tjq('#main-menu ul.menu').clone().hide().appendTo(document.body).wrap("<div class='chaser hidden-mobile'><div class='container'></div></div>");
-        tjq('<h1 class="logo navbar-brand"><a title="Travelo - home" href="index.html"><img alt="" src="images/logo.png"></a></h1>').insertBefore('.chaser .menu');
+        tjq('<h1 class="logo navbar-brand"><a href="index.html"><img alt="" src="images/logo.png"></a></h1>').insertBefore('.chaser .menu');
         var forch = tjq('#content').first();
         forchBottom = forch.offset().top + 2;
         tjq(window).on('scroll', function () {

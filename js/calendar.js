@@ -1,8 +1,3 @@
-/*
- * Title:   Travelo - Travel, Tour Booking HTML5 Template - Calendar Js used in the detailed pages
- * Author:  http://themeforest.net/user/soaptheme
- */
-
 function Calendar() {
     this.html = "";
 }
