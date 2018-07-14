@@ -56,13 +56,13 @@
                                                     <div class="col-xs-6">
                                                         <label>Check In</label>
                                                         <div class="datepicker-wrap">
-                                                            <input type="text" name="checkin" class="input-text full-width" placeholder="mm/dd/yy" required />
+                                                            <input type="text" name="date_from" class="input-text full-width" placeholder="mm/dd/yy" required />
                                                         </div>
                                                     </div>
                                                     <div class="col-xs-6">
                                                         <label>Check Out</label>
                                                         <div class="datepicker-wrap">
-                                                            <input type="text" name="checkout" class="input-text full-width" placeholder="mm/dd/yy" required />
+                                                            <input type="text" name="date_to" class="input-text full-width" placeholder="mm/dd/yy" required />
                                                         </div>
                                                     </div>
                                                 </div>

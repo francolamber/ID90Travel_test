@@ -14,8 +14,8 @@
 
 		$data = array(
 			'guests[]'			=>	$_GET['guests'],
-	      	'checkin'			=>	date('Y-m-d', strtotime($_GET['checkin'])),
-	      	'checkout'			=>	date('Y-m-d', strtotime($_GET['checkout'])),
+	      	'checkin'			=>	date('Y-m-d', strtotime($_GET['date_from'])),
+	      	'checkout'			=>	date('Y-m-d', strtotime($_GET['date_to'])),
 	      	'destination'		=>	$_GET['destination'],
 	      	'page'				=>	$_GET['page'],
 	      	'currency'			=>	$_GET['currency'],
@@ -85,7 +85,7 @@
 
 	    //configuracion de botones de siguiente y atras para la paginacion
 
-	    $url_base='hotel-list-view.php?guests='.$_GET['guests'].'&checkin='.date('Y-m-d', strtotime($_GET['checkin'])).'&checkout='.date('Y-m-d', strtotime($_GET['checkout'])).'&destination='.$_GET['destination'].'&rooms=1&currency='.$_GET['currency'].'&price_low='.$_GET['price_low'].'&price_high='.$_GET['price_high'].'';
+	    $url_base='hotel-list-view.php?guests='.$_GET['guests'].'&checkin='.date('Y-m-d', strtotime($_GET['date_from'])).'&checkout='.date('Y-m-d', strtotime($_GET['date_to'])).'&destination='.$_GET['destination'].'&rooms=1&currency='.$_GET['currency'].'&price_low='.$_GET['price_low'].'&price_high='.$_GET['price_high'].'';
 
 	    if($jsonResults['meta']['total_pages']>$_GET['page']){
 	        $GLOBALS['nexturl']=$url_base.'&page='.($_GET['page']+1);
